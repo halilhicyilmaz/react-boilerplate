@@ -26,7 +26,6 @@ export default function AddButtonBig(props) {
             borderRadius: "7px",
             backgroundColor: '#000000',
             fontFamily: DEFAULT_THEME.typography.fontFamilyBold,
-
             '&:hover': {
                 backgroundColor: '#FFCC33',
                 color: '#000000',
