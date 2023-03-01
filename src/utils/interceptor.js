@@ -91,7 +91,7 @@ const handleResponse = (res) => {
 
 const handleError = (err) => {
     if (err.code === 'ECONNABORTED') {
-        console.log(err)
+        store.dispatch(setLoading(false))
     }
     else {
         setTimeout(() => store.dispatch(setLoading(false)), 1000)
